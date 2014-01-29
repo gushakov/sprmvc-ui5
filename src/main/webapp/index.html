@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<!-- Based on example at https://openui5.hana.ondemand.com/#docs/guide/ApplicationSkel.html -->
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+    <!-- see addResourceHandlers() method in WebAppConfigurer -->
+    <script src="resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.ui.commons,sap.ui.table"
+            data-sap-ui-theme="sap_goldreflection">
+    </script>
+
+    <script>
+        sap.ui.localResources("springui5");
+        jQuery.sap.require("sap.ui.core.IconPool");
+        var view = sap.ui.jsview("springui5.home");
+        view.placeAt("content");
+    </script>
+
+</head>
+<body class="sapUiBody" role="application">
+<div id="content"></div>
+</body>
+</html>
