@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 /**
- * REST-full controller for handling Ajax requests from {@code home.controller.js}. Will be picked up during the
+ * Controller for handling Ajax requests from {@code home.controller.js}. Will be picked up during the
  * component scan, see {@linkplain org.springframework.context.annotation.ComponentScan} annotation specification on
  * {@linkplain com.github.springui5.conf.WebAppConfigurer}.
  *
